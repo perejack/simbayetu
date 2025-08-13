@@ -21,7 +21,7 @@ export default function Header({}: HeaderProps) {
             <div className="flex items-center space-x-3">
               <div className="bg-white p-2 rounded-lg shadow-md">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkhl19m5tk5Ri0igoRm9BEEM71otgSgD4D3A&s"
+    src="/simba-cement.png"
     alt="Simba Cement & Steel Logo"
     className="w-8 h-8 object-contain rounded"
     style={{ minWidth: 32, minHeight: 32 }}
