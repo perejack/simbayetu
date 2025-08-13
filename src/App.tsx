@@ -159,9 +159,10 @@ function App() {
         href="https://wa.me/254738276457?text=Hi%20Simba%20Cement%20%26%20Steel!%20I%20would%20like%20to%20talk%20to%20you"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white p-4 rounded-full shadow-2xl hover:shadow-3xl z-40 transition-all duration-300 transform hover:scale-110 animate-float"
+        className="fixed bottom-6 right-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white p-4 rounded-full shadow-2xl hover:shadow-3xl z-40 transition-all duration-300 transform hover:scale-110 animate-float flex items-center gap-3 pr-6"
       >
         <MessageCircle className="w-7 h-7" />
+        <span className="font-bold text-base ml-2">Talk to Us on WhatsApp</span>
         <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-ping"></div>
       </a>
 
